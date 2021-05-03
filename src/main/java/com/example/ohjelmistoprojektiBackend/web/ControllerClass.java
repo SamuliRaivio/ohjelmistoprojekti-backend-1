@@ -82,7 +82,7 @@ public class ControllerClass {
         return response;
     }
 	
-	/*@RequestMapping(value="/api", method = RequestMethod.GET)
+	@RequestMapping(value="/api", method = RequestMethod.GET)
     public @ResponseBody List<Kysely> kyselyListaRest() {	
         return (List<Kysely>) kyselyRepository.findAll();
     }    
@@ -90,7 +90,7 @@ public class ControllerClass {
 	@RequestMapping(value="/api", method = RequestMethod.POST)
     public @ResponseBody Kysely saveKyselyRest(@RequestBody Kysely kysely) {	
     	return kyselyRepository.save(kysely);
-    }*/
+    }
 
 	
 	
